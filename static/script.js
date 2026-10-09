@@ -1,18 +1,15 @@
-
 // document.addEventListener("DOMContentLoaded", () => {
-    const listItems = document.querySelectorAll("li");
+const listItems = document.querySelectorAll("li")
 
-    function toggleDone(event) {
-        event.target.classList.toggle("done");
-    }
+function toggleDone(event) {
+  event.target.classList.toggle("done")
+}
 
-    listItems.forEach((item) => {
-        item.addEventListener("click", toggleDone);
-    });
+listItems.forEach((item) => {
+  item.addEventListener("click", toggleDone)
+})
 
-
-
-    /*
+/*
     let docheading = document.querySelector("h1");
 
      function setHeading() {
@@ -34,7 +31,7 @@
     })
     */
 
-    /*
+/*
     const myImage = document.querySelector("img");
 
     myImage.addEventListener("click", () => {
@@ -48,7 +45,7 @@
     })
     */
 
-    /*
+/*
     let name = "Даниил";
     const age = 18;
 
@@ -71,20 +68,20 @@
     document.querySelector("h1").addEventListener("click", () => {alert("Заголовок!")})
     */
 
-    /*
+/*
     const header = document.querySelector("h1")
     header.textContent = "Girl!"
     header.style.color = "red";
     */
 
-    /*
+/*
     const header = document.querySelector("h1")
     header.addEventListener("click", () => {
         header.style.color = "red";
     })
     */
 
-    /*
+/*
     const fruits = ["apple", "banana", "orange"];
     fruits.push("melon");
     fruits.forEach((fruit) => {
@@ -94,7 +91,7 @@
     const upperFruits = fruits.map(fruit => fruit.toUpperCase());
     */
 
-    /*
+/*
     const person = {
         name: "Даниил",
         age: 19,
@@ -106,7 +103,7 @@
     person.greet()
     */
 
-    /*
+/*
     async function getData() {
         const response = await fetch("https://jsonplaceholder.typicode.com/posts/1");
         const data = await response.json();
